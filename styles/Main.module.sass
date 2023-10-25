@@ -1,0 +1,55 @@
+.optional
+  font-size: 50px
+  display: flex
+  align-items: center
+  justify-content: center
+
+.main
+  width: 100vw
+  height: 100vh
+  @extend .optional
+
+.about
+  height: 200vh
+  @extend .optional
+
+.projects
+  height: 300vh
+
+.projects-container
+  position: sticky
+  top: 0
+  display: flex
+  height: 100vh
+  overflow: hidden
+
+.projects-container-2
+  display: flex
+
+.project
+  width: 100vw
+  height: 100vh
+  background-color: #EF4444
+  @extend .optional
+
+.header
+  position: sticky
+  top: 0
+  z-index: 2
+  width: 100vw
+  height: 60px
+  background-color: white
+  display: flex
+  align-items: center
+  justify-content: space-around
+
+.button
+  font-size: 30px
+  cursor: pointer
+  transition: 0.3s
+  background: none
+  border: none
+  color: #484848
+
+  &:hover
+    color: #EF4444
